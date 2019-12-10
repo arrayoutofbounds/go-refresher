@@ -9,4 +9,13 @@ func main() {
 	emails["Sharon"] = "sharon@gmail.com"
 
 	fmt.Println(emails)
+
+	delete(emails, "Bob")
+
+	fmt.Println(emails)
+
+	// declare inline
+	emails2 := map[string]string{"Bob": "bob@mail.com"}
+
+	fmt.Println(emails2)
 }
